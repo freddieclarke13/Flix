@@ -13,6 +13,7 @@
 		97F6756425C66904009E898E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F6756325C66904009E898E /* Assets.xcassets */; };
 		97F6756725C66904009E898E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6756525C66904009E898E /* LaunchScreen.storyboard */; };
 		97F6757125C669FA009E898E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6757025C669FA009E898E /* MoviesViewController.swift */; };
+		97F6757525C670AF009E898E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6757425C670AF009E898E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		97F6756625C66904009E898E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F6756825C66904009E898E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F6757025C669FA009E898E /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		97F6757425C670AF009E898E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				97F6756525C66904009E898E /* LaunchScreen.storyboard */,
 				97F6756825C66904009E898E /* Info.plist */,
 				97F6757025C669FA009E898E /* MoviesViewController.swift */,
+				97F6757425C670AF009E898E /* MovieCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				97F6755B25C66902009E898E /* AppDelegate.swift in Sources */,
 				97F6755D25C66902009E898E /* SceneDelegate.swift in Sources */,
+				97F6757525C670AF009E898E /* MovieCell.swift in Sources */,
 				97F6757125C669FA009E898E /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5BS4N638K;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5BS4N638K;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
